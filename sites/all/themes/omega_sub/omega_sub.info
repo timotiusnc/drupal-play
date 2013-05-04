@@ -1,6 +1,9 @@
+; Required
 name = 'omega_sub'
-description = ''
+description = 'Omega subtheme'
 core = '7.x'
+; Required
+
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
@@ -32,9 +35,9 @@ zones[branding] = 'Branding'
 zones[menu] = 'Menu'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
-css[global.css][name] = 'Your custom global styles'
-css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
-css[global.css][options][weight] = '10'
+css[global.less][name] = '.less subtheme file'
+css[global.less][description] = 'New .less file for less integration with my subtheme'
+css[global.less][options][weight] = '10'
 settings[alpha_grid] = 'alpha_default'
 settings[alpha_primary_alpha_default] = 'normal'
 settings[alpha_responsive] = '1'
