@@ -106,14 +106,6 @@ function bartik_process_maintenance_page(&$variables) {
 }
 
 /**
- * Make edit tabs for Panel Pages available.
- *
- */
-function bartik_preprocess_page(&$variables) {
-  $variables['tabs2'] = ctools_menu_secondary_local_tasks();
-}
-
-/**
  * Override or insert variables into the node template.
  */
 function bartik_preprocess_node(&$variables) {
